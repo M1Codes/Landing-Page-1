@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Permanent Marker", cursive;
+  font-size: 17px;
+  color: #35ac70;
+  line-height: 1.6;
+}
+section p {
+  font-family: "PT Serif", serif;
+}
+#showcase {
+  background-image: url(../img/FrontStreetDigital.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #35ac70;
+  border: #35ac70 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#showcase .button:hover {
+  background: #35ac70;
+  color: rgba(0, 0, 0, 0.171);
+}
+#section-a {
+  padding: 20px;
+  background: #35ac70;
+  color: #fff;
+  text-align: center;
+}
+#section-b {
+  padding: 20px;
+  background: rgb(32, 32, 32);
+  text-align: center;
+}
+#section-c {
+  display: flex;
+}
+#section-c div {
+  padding: 20px 10px;
+}
+#section-c .box1 {
+  background: #35ac70;
+  color: #fff;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+#section-c .box2 {
+  background: #fff;
+  color: #35ac70;
+  font-family: "PT Serif", serif;
+  text-align: center;
+  display: inline-block;
+}
+#section-c .box3 {
+  background: #35ac70;
+  color: #fff;
+  font-family: "PT Serif", serif;
+  text-align: center;
+}
+#section-d {
+  background: rgb(32, 32, 32);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+#section-d .button {
+  font-size: 14px;
+  text-decoration: none;
+  color: #35ac70;
+  border: #35ac70 1px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px 10px;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  min-height: 30px;
+  background: rgb(32, 32, 32);
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-left: 575px;
+  margin-right: -575px;
+}
+footer p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #35ac70;
+  background: rgb(32, 32, 32);
+  padding: 15px;
+  text-align: center;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: 0.4;
+  transition: all 0.5s;
+}
+a.twitter {
+  background-image: url(../img/twitter.svg);
+}
+a.instagram {
+  background-image: url(../img/instagram.svg);
+}
+a.github {
+  background-image: url(../img/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
+.clearfix {
+  clear: both;
+}
